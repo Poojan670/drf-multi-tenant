@@ -20,11 +20,13 @@ Potential benefits of multi-tenant:
 Affordable Cost: Multiple customers means that the cost for the environment is shared, and those savings (from the SaaS vendor) are typically transferred to the cost of the software.
 Integrations: Cloud environments allow for easier integration with other applications through the use of APIs.
 “Hands-free” Maintenance: The server technically belongs to the SaaS vendor, meaning that a certain level of database maintenance is handled by the vendor, instead of you maintaining the environment yourself.
+
 Potential drawbacks of multi-tenant:
 
 Limited Management/Customization: While you do have added integration benefits, custom changes to the database aren’t typically an option.
 Security: Other tenants won’t see your data. However, multiple users (not associated with your organization) are allowed on the same database. This broader access reduces control of security.
 Updates/Changes: If you’re reliant on integrations with other SaaS products and one updates their system, it may cause issues with those connecting apps.
+
 ---
 
 
