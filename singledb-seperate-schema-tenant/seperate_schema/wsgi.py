@@ -1,5 +1,5 @@
 """
-WSGI config for shared_schema project.
+WSGI config for seperate_schema project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shared_schema.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'seperate_schema.settings')
 
 application = get_wsgi_application()

@@ -35,7 +35,7 @@ MIDDLEWARE = [
     "tenant.middleware.TenantMiddleware"
 ]
 
-ROOT_URLCONF = 'shared_schema.urls'
+ROOT_URLCONF = 'seperate_schema.urls'
 
 TEMPLATES = [
     {
@@ -53,7 +53,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'shared_schema.wsgi.application'
+WSGI_APPLICATION = 'seperate_schema.wsgi.application'
 
 DATABASES = {
     'default': {
